@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --text-color: #011f40;
+  --primary-light: blue;
+  --primary-dark: #212529;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply font-[Sans-serif];
+  }
+  button {
+    @apply px-4 py-2;
+  }
+}
